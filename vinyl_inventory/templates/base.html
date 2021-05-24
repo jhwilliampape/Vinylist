@@ -33,7 +33,7 @@
                 <a href="{{ url_for('site.profile') }}">
                     <li>Profile</li>
                 </a>
-                <a href="">
+                <a href="{{ url_for('auth.logout') }}">
                     <li>Log Out</li>
                 </a>
                 {% else %}
